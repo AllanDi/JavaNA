@@ -8,8 +8,8 @@ public class Exercicio1_2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Exercicio 2");
-        System.out.println("Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da" +
-                " área deste círculo com quatro casas decimais.\n" +
+        System.out.println("Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da " +
+                "área deste círculo com quatro casas decimais.\n" +
                 "Fórmula da área: area = π . raio2\n" +
                 "Considere o valor de π = 3.14159\n");
 
