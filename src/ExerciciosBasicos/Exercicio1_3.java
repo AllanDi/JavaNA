@@ -31,6 +31,6 @@ public class Exercicio1_3 {
 
         int produto = valor1 * valor2 - valor3 * valor4;
 
-        System.out.printf("A produto dos valores é: " + produto);
+        System.out.print("A produto dos valores é: " + produto);
     }
 }
