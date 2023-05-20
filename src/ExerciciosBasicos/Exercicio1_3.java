@@ -1,4 +1,4 @@
 package ExerciciosBasicos;
 
-public class Parte1Exercicio3 {
+public class Exercicio1_3 {
 }

@@ -2,7 +2,7 @@ package ExerciciosBasicos;
 
 import java.util.Scanner;
 
-public class Parte1Exercicio2 {
+public class Exercicio1_2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
