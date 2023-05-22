@@ -7,9 +7,13 @@ public class Exercicio1_5 {
 
         Scanner sc = new Scanner(System.in);
 
-        int codigo;
-        int totalPecas;
-        double valorUitario;
+        int codigo1;
+        int totalPecas1;
+        double valorUitario1;
+
+        int codigo2;
+        int totalPecas2;
+        double valorUitario2;
 
         System.out.println("Exercicio 5");
         System.out.println("Fazer um programa para ler o código de uma peça 1, o número de peças 1, " +
@@ -17,10 +21,23 @@ public class Exercicio1_5 {
                 "código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. " +
                 "Calcule e mostre o valor a ser pago.");
 
-        System.out.println("Digite o codigo da peça 1: ");
-        codigo = sc.nextInt();
+        System.out.print("Digite o codigo da peça 1: ");
+        codigo1 = sc.nextInt();
 
-        System.out.println("Digite o numero total de pecas");
+        System.out.print("Digite o numero total de peças 1: ");
+        totalPecas1 = sc.nextInt();
+
+        System.out.print("Digite o valor unitario da peça 1: ");
+        valorUitario1 = sc.nextInt();
+
+        System.out.print("Digite o codigo da peça 2: ");
+        codigo2 = sc.nextInt();
+
+        System.out.print("Digite o numero total de peças 2: ");
+        totalPecas2 = sc.nextInt();
+
+        System.out.print("Digite o valor unitario da peça 2: ");
+        totalPecas2 = sc.nextInt();
 
 
 
