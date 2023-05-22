@@ -15,6 +15,8 @@ public class Exercicio1_5 {
         int totalPecas2;
         double valorUitario2;
 
+        double valorTotal;
+
         System.out.println("Exercicio 5");
         System.out.println("Fazer um programa para ler o código de uma peça 1, o número de peças 1, " +
                 "o valor unitário de cada peça 1, o\n" +
@@ -28,7 +30,7 @@ public class Exercicio1_5 {
         totalPecas1 = sc.nextInt();
 
         System.out.print("Digite o valor unitario da peça 1: ");
-        valorUitario1 = sc.nextInt();
+        valorUitario1 = sc.nextDouble();
 
         System.out.print("Digite o codigo da peça 2: ");
         codigo2 = sc.nextInt();
@@ -37,9 +39,10 @@ public class Exercicio1_5 {
         totalPecas2 = sc.nextInt();
 
         System.out.print("Digite o valor unitario da peça 2: ");
-        totalPecas2 = sc.nextInt();
+        valorUitario2 = sc.nextDouble();
 
+        valorTotal = ((totalPecas1 * valorUitario1) +( totalPecas2 * valorUitario2));
 
-
+        System.out.println("O valot total a pagar dos itens "+codigo1+", "+codigo2+" é de:"+valorTotal);
     }
 }
