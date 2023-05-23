@@ -15,7 +15,7 @@ public class Exercicio2_1 {
 
         int numero;
 
-        System.out.println("Digite um numero para verificar se é negativo");
+        System.out.print("Digite um numero para verificar se é negativo ou positivo: ");
         numero = sc.nextInt();
 
         if (numero >= 0) {
