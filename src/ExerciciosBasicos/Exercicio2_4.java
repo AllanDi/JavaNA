@@ -28,6 +28,9 @@ public class Exercicio2_4 {
         } else {
             resultado = 24 - horaFinal + horaInicial;
         }
+        if (resultado == 24){
+            resultado = 0;
+        }
         System.out.println("O jogo durou "+resultado+" horas.");
     }
 }
