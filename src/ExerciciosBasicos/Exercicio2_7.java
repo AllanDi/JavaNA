@@ -27,8 +27,14 @@ public class Exercicio2_7 {
 
         if (valorX == 0 && valorY ==0 ){
             System.out.println("Origem.");
-        } else if (valorX) {
-
+        } else if (valorX > 0 && valorY > 0){
+            System.out.println("Q1");
+        } else if (valorX > 0 && valorY < 0){
+            System.out.println("Q4");
+        } else if (valorX < 0 && valorY > 0){
+            System.out.println("Q2");
+        } else if (valorX < 0 && valorY < 0){
+            System.out.println("Q3");
         }
     }
 }
