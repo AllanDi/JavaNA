@@ -27,6 +27,8 @@ public class Exercicio2_7 {
 
         if (valorX == 0 && valorY ==0 ){
             System.out.println("Origem.");
+        } else if (valorX) {
+
         }
     }
 }
