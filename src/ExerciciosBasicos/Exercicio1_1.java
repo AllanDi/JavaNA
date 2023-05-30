@@ -16,10 +16,8 @@ public class Exercicio1_1 {
         int valor1;
         int valor2;
 
-        System.out.print("Digite o primeiro valor para ser calculado: ");
+        System.out.print("Digite valores para serem calculados: ");
         valor1 = sc.nextInt();
-
-        System.out.print("Digite o segundo valor para ser calculado: ");
         valor2 = sc.nextInt();
 
         int somaValores = valor1 + valor2;

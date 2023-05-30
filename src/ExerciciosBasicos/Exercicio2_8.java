@@ -28,6 +28,6 @@ public class Exercicio2_8 {
                 "de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com\n" +
                 "duas casas decimais.");
 
-
+        System.out.println();
     }
 }
