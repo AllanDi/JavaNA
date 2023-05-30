@@ -11,10 +11,13 @@ public class Exercicio2_8 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Exercicio 6");
-        System.out.println("Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem\n" +
-                "que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da população, sem\n" +
+        System.out.println("Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus " +
+                "impostos, pois sabem\n" +
+                "que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da " +
+                "população, sem\n" +
                 "qualquer desvio. A moeda deste país é o Rombus, cujo símbolo é o R$.\n" +
-                "Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. Em seguida, calcule e\n" +
+                "Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. Em seguida, " +
+                "calcule e\n" +
                 "mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo\n");
 
         System.out.println("Renda / Imposto de Renda\n" +
@@ -28,6 +31,23 @@ public class Exercicio2_8 {
                 "de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com\n" +
                 "duas casas decimais.");
 
-        System.out.println();
+        double salario;
+        double valorPagar = 0;
+        double porcentagemDesconto;
+
+        System.out.print("Imforme o salario atual para se calcular o imposto de renda: ");
+        salario = sc.nextDouble();
+
+        if (salario > 0 && salario < 2000) {
+            valorPagar = 0;
+        } else if (salario > 2000 && salario < 3000) {
+            valorPagar = (salario - 2000) * 0.08;
+        } else if (salario > 3000 && salario < 4500) {
+            valorPagar = (salario - 3000) * 0.18;
+        } else if (salario > 4500) {
+           valorPagar = (salario - 4500) * 0.28;
+        }
+
+        System.out.println(valorPagar);
     }
 }
