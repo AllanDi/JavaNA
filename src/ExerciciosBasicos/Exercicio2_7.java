@@ -10,7 +10,7 @@ public class Exercicio2_7 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Exercicio 6");
+        System.out.println("Exercicio 7");
         System.out.println("Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas\n" +
                 "de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o\n" +
                 "ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).\n" +

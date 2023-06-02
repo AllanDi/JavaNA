@@ -10,7 +10,7 @@ public class Exercicio2_8 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Exercicio 6");
+        System.out.println("Exercicio 8");
         System.out.println("Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus " +
                 "impostos, pois sabem\n" +
                 "que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da " +
