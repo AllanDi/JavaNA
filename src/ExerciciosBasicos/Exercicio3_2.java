@@ -25,14 +25,14 @@ public class Exercicio3_2 {
         cordenadaY = sc.nextInt();
 
         while (cordenadaX != 0 || cordenadaY != 0){
-                   if (cordenadaX > 0 && cordenadaY > 0) {
-                System.out.println("Quadrante 1");
+            if (cordenadaX > 0 && cordenadaY > 0) {
+                System.out.println("Primeiro");
             } else if (cordenadaX > 0 && cordenadaY < 0) {
-                System.out.println("Quadrante 2");
+                System.out.println("Segundo");
             } else if (cordenadaX < 0 && cordenadaY > 0) {
-                System.out.println("Quadrante 3");
+                System.out.println("Quarto");
             } else if (cordenadaX < 0 && cordenadaY < 0) {
-                System.out.println("Quadrante 4");
+                System.out.println("Terceiro");
             }
             System.out.print("digite as cordenadas X e Y para verificação: ");
             cordenadaX = sc.nextInt();
