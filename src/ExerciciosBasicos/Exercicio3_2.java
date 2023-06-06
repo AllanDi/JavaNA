@@ -38,6 +38,6 @@ public class Exercicio3_2 {
             cordenadaX = sc.nextInt();
             cordenadaY = sc.nextInt();
         }
-        System.out.println("Valores inválidos");
+        System.out.println("Valores inválidos = teste");
     }
 }
