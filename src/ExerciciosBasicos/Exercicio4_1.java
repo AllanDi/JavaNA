@@ -10,7 +10,7 @@ public class Exercicio4_1 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Exercicio 3");
+        System.out.println("Exercicio 1");
         System.out.println("Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, " +
                 "um valor por linha, inclusive o\n" +
                 "X, se for o caso.");
