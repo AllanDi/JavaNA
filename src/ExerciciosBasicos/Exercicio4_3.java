@@ -34,7 +34,7 @@ public class Exercicio4_3 {
             terceiroNumero = sc.nextDouble();
 
             double calculoMediaPonderada = ((primeiroNumero * 2) + (segundoNumero * 3) + (terceiroNumero * 5)) / (2+3+5);
-            System.out.println(calculoMediaPonderada);
+            System.out.printf("%.1f %n", calculoMediaPonderada);
         }
     }
 }
