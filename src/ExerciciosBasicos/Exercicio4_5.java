@@ -1,4 +1,3 @@
-package ExerciciosBasicos;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,16 +13,12 @@ public class Exercicio4_5 {
                 "N = N * (N-1) * (N-2) * (N-3) * ... * 1.\n" +
                 "Lembrando que, por definição, fatorial de 0 é 1.");
 
-        double guarda = 0;
         System.out.println("Informe o numero para se calcular o fatorial:  ");
-        double numero = sc.nextInt();
+        int numero = sc.nextInt();
+        for (int i = numero-1; i >= 1; i--) {
 
-        for (int i = 0; i < numero; i++) {
-
-            double fatorial = numero * (numero -1);
-
-            guarda = guarda + fatorial;
+            numero = numero * i;
         }
-        System.out.println(guarda);
+        System.out.println(numero);
     }
 }
