@@ -18,7 +18,7 @@ public class Exercicio4_8 {
         char resp;
 
         do {
-            System.out.print("Digite a temperatura em Celsius: ");
+            System.out.print("Digite a temperatura em Clsius: ");
             double C = sc.nextDouble();
             double F = 9.0 * C / 5.0 + 32.0;
             System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
