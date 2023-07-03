@@ -10,7 +10,7 @@ public class Exercicio1_1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Exercicio 1");
-        System.out.println("Faça um programa para ler dois numreros inteiros, e depois mostrar na tela " +
+        System.out.println("Faça um programa para ler dois valores inteiros, e depois mostrar na tela " +
                 "a soma desses números com uma mensagem explicativa:\n");
 
         int valor1;
