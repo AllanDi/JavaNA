@@ -28,7 +28,7 @@ public class TesteAulas {
         }
         return aux;
     }
-    public static void String(x){
+    public static void String(){
         System.out.println();
     }
 }
