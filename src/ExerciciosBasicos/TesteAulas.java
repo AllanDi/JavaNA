@@ -14,7 +14,7 @@ public class TesteAulas {
 
         System.out.println(higher);
 //
-//        Showresult(higer);
+//        Showresult(higher);
         }
 
     public static int max(int a, int b, int c) {
