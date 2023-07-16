@@ -22,6 +22,33 @@ public class Exercicio1_1 {
 
         int somaValores = valor1 + valor2;
 
-        System.out.println("A soma dos valores é:" + somaValores);
+        System.out.println("A soma dos valores sem utilizar função é: " + somaValores);
+
+        mostraResultado(funcaoSomavalores(valor1, valor2));
+
     }
+    public static int funcaoSomavalores(int x, int y) {
+
+        int numero1 = x;
+        int numero2 = y;
+        int soma;
+
+        soma = numero1 + numero2;
+
+        return soma;
+
+    }
+
+    public static void mostraResultado(int valor){
+        System.out.println("A soma dos valores calculados usando função é: " + valor);
+    }
+
+
+
+
+
+
+
+
+
 }
