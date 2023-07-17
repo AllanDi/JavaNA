@@ -23,6 +23,19 @@ public class Exercicio1_2 {
 
         double area = pi * raio * raio;
 
-        System.out.printf("A soma dos valores é: %.4f", area);
+        System.out.printf("O resultado da area é: %.4f%n", area);
+
+        mostraFuncao(funcaoCalculaRaio(raio));
+
+    }
+    public static float funcaoCalculaRaio(double x) {
+        double pi = Math.PI;
+        double raio = x;
+
+        double area = pi * raio * raio;
+        return (float)area;
+    }
+    public static void mostraFuncao(double valor){
+        System.out.printf("O resultado da area utilzando uma funcao é: %.4f", valor);
     }
 }
