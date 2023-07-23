@@ -1,4 +1,4 @@
-package ExerciciosBasicos;
+package exerciciosBasicos;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -42,13 +42,4 @@ public class Exercicio1_1 {
     public static void mostraFuncao(int valor){
         System.out.println("A soma dos valores calculados usando função é: " + valor);
     }
-
-
-
-
-
-
-
-
-
 }
