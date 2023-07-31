@@ -15,12 +15,12 @@ public class Exercicio1_4 {
                 "mostre o número e o salário do funcionário, com duas casas\n" +
                 "decimais.");
 
-        int numeroFuncionario;
+        int numeroFuncionario1;
         double totalHorasTrabalhadas;
         double valorHoraTrabalhada;
 
         System.out.print("Digite o numero do funcionário: ");
-        numeroFuncionario = sc.nextInt();
+        numeroFuncionario1 = sc.nextInt();
 
         System.out.print("Digite o total de horas trabalhadas: ");
         totalHorasTrabalhadas = sc.nextDouble();
@@ -30,6 +30,6 @@ public class Exercicio1_4 {
 
         double salarioTotal = totalHorasTrabalhadas * valorHoraTrabalhada;
 
-        System.out.printf("O total salarial do funcionario %d é de %.2f.", numeroFuncionario, salarioTotal);
+        System.out.printf("O total salarial do funcionario %d é de %.2f.", numeroFuncionario1, salarioTotal);
     }
 }
